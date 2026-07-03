@@ -42,46 +42,8 @@ Greedy stays under **0.4 ms** at n=100. Backtracking hits **562 ms** at n=30 and
 
 ![Colored graphs](data/figures/colored_graph_comparison.png)
 
-## Project structure
-
-```
-graph-coloring-visualizer/
-├── src/
-│   ├── graph_gen.py              # Erdős–Rényi random graph generator
-│   ├── greedy_coloring.py        # greedy algorithm (3 vertex orderings)
-│   ├── backtracking_coloring.py  # exact backtracking algorithm
-│   ├── benchmark.py              # runtime + color count benchmark
-│   └── visualizer.py             # generates all figures
-├── tests/
-│   ├── test_greedy_coloring.py       # 9 unit tests
-│   └── test_backtracking_coloring.py # 12 unit tests
-├── data/
-│   ├── results.json              # benchmark output
-│   └── figures/                  # generated charts and graph drawings
-├── requirements.txt
-└── README.md
-```
-
-## Setup & usage
-
-```bash
-python3 -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-# run the benchmark
-python3 src/benchmark.py
-
-# generate all figures
-python3 src/visualizer.py
-
-# run all 21 tests
-python3 -m pytest tests/ -v
-```
 
 ## Why it matters
 
 This project is a self-contained demonstration of a core algorithms concept: the **tractability gap** between heuristic and exact methods on NP-hard problems. Greedy's polynomial speed comes at the cost of optimality; backtracking's correctness guarantee comes at an exponential runtime cost. Both are measurably real, not just theoretical claims.
 
-## License
-MIT
