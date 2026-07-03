@@ -1,0 +1,103 @@
+{
+  "edge_prob": 0.4,
+  "seed": 42,
+  "greedy": [
+    {
+      "n": 5,
+      "colors": 3,
+      "time_ms": 0.0091
+    },
+    {
+      "n": 10,
+      "colors": 4,
+      "time_ms": 0.0077
+    },
+    {
+      "n": 15,
+      "colors": 6,
+      "time_ms": 0.0137
+    },
+    {
+      "n": 20,
+      "colors": 6,
+      "time_ms": 0.0182
+    },
+    {
+      "n": 25,
+      "colors": 7,
+      "time_ms": 0.0242
+    },
+    {
+      "n": 30,
+      "colors": 7,
+      "time_ms": 0.0395
+    },
+    {
+      "n": 35,
+      "colors": 8,
+      "time_ms": 0.0413
+    },
+    {
+      "n": 40,
+      "colors": 9,
+      "time_ms": 0.0581
+    },
+    {
+      "n": 50,
+      "colors": 10,
+      "time_ms": 0.076
+    },
+    {
+      "n": 60,
+      "colors": 10,
+      "time_ms": 0.1147
+    },
+    {
+      "n": 75,
+      "colors": 13,
+      "time_ms": 0.1703
+    },
+    {
+      "n": 100,
+      "colors": 16,
+      "time_ms": 0.31
+    }
+  ],
+  "backtracking": [
+    {
+      "n": 5,
+      "colors": 3,
+      "time_ms": 0.0136
+    },
+    {
+      "n": 10,
+      "colors": 4,
+      "time_ms": 0.0979
+    },
+    {
+      "n": 15,
+      "colors": 5,
+      "time_ms": 0.829
+    },
+    {
+      "n": 20,
+      "colors": 5,
+      "time_ms": 0.257
+    },
+    {
+      "n": 25,
+      "colors": 6,
+      "time_ms": 168.6952
+    },
+    {
+      "n": 30,
+      "colors": 6,
+      "time_ms": 562.7724
+    },
+    {
+      "n": 35,
+      "colors": 6,
+      "time_ms": 47.5838
+    }
+  ]
+}
