@@ -4,8 +4,7 @@ Exact graph coloring via backtracking search.
 
 THEORY:
 Unlike greedy coloring, backtracking coloring guarantees finding the true
-chromatic number chi(G) -- the minimum number of colors needed so that no
-two adjacent vertices share a color.
+chromatic number chi(G)
 
 Approach: for a fixed number of colors k, try to assign colors to vertices
 one at a time (in some order). At each vertex, try every color from 0 to
