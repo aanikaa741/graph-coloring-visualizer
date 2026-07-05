@@ -10,7 +10,6 @@ used by any of v's already-colored neighbors.
 This is a polynomial-time heuristic: O(V + E) for a fixed vertex order,
 since each vertex examines its neighbors' colors once.
 
-IMPORTANT CAVEAT (this is the key theoretical point for the writeup):
 Greedy coloring does NOT guarantee the chromatic number chi(G) -- the
 minimum number of colors needed. The number of colors used depends
 heavily on vertex ordering. A bad ordering can force greedy to use far
